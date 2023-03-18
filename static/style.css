@@ -1,0 +1,64 @@
+/* Set the background color and font styles */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Center the main container */
+  .container {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+  }
+  
+  /* Style the input form */
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Style the sentiment output */
+  .sentiment {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Style the clear button */
+  .clear-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .clear-btn:hover {
+    background-color: #d32f2f;
+  }
+  
